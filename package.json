@@ -1,0 +1,16 @@
+{
+  "name": "conductor",
+  "version": "0.1.0",
+  "description": "Orchestrator for disposable AI agents",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "license": "MIT"
+}
